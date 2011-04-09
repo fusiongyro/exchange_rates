@@ -10,7 +10,7 @@
 void open_storage(void);
 
 /// Write a currency unit to the subsystem.
-void write_currency(char* symbol, double exchange_to, double exchange_from);
+void write_currency(const char* symbol, double exchange_to, double exchange_from);
 
 /// Close the storage subsystem. Call it once for each time you call 'open'.
 void close_storage(void);

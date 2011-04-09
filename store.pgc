@@ -20,10 +20,10 @@ void open_storage()
 }
 
 // Write a currency unit to the subsystem.
-void write_currency(char* symbol, double exchange_to, double exchange_from)
+void write_currency(const char* symbol, double exchange_to, double exchange_from)
 {
   EXEC SQL BEGIN DECLARE SECTION;
-  char* symbol_;
+  const char* symbol_;
   double exchange_to_;
   double exchange_from_;
   EXEC SQL END DECLARE SECTION;
