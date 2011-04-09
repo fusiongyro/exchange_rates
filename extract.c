@@ -1,3 +1,4 @@
+#include <string.h>
 #include "extract.h"
 
 // NOTE: we must handle exchange rates with commas in them too!
@@ -51,16 +52,20 @@ void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
   pcre_get_substring(line, ovector, result, 1, &c_symbol);
   pcre_get_substring(line, ovector, result, 2, &c_to);
   pcre_get_substring(line, ovector, result, 3, &c_from);
-  char *symbol = strdup(c_symbol);
-  char *to = strdup(c_to);
-  char *from = strdup(c_from);
 
-  // convert strings to doubles
-  remove_comma(to); remove_comma(from);
-  float conversion_to = atof(to);
+  // mutable copies
+  char *symbol = strdup(c_symbol);
+  char *to     = strdup(c_to);
+  char *from   = strdup(c_from);
+
+  // remove commas
+  remove_comma(to);     remove_comma(from);
+
+  // convert to floats
+  float conversion_to   = atof(to);
   float conversion_from = atof(from);
   
-  // call the callback
+  // invoke the callback
   (*callback)(symbol, conversion_to, conversion_from);
   
   // free the storage

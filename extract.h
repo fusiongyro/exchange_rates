@@ -1,6 +1,8 @@
 #ifndef __extract_h
 #define __extract_h
 
+extern char *strdup(const char*);
+
 /// \file extract.h
 /// 
 /// This module defines functions for parsing text and callbacks.
