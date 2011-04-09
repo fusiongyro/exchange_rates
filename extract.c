@@ -47,10 +47,13 @@ void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
     return;
   
   // extract the groups
-  char *symbol, *to, *from;
-  pcre_get_substring(line, ovector, result, 1, &symbol);
-  pcre_get_substring(line, ovector, result, 2, &to);
-  pcre_get_substring(line, ovector, result, 3, &from);
+  const char *c_symbol, *c_to, *c_from;
+  pcre_get_substring(line, ovector, result, 1, &c_symbol);
+  pcre_get_substring(line, ovector, result, 2, &c_to);
+  pcre_get_substring(line, ovector, result, 3, &c_from);
+  char *symbol = strdup(c_symbol);
+  char *to = strdup(c_to);
+  char *from = strdup(c_from);
 
   // convert strings to doubles
   remove_comma(to); remove_comma(from);
@@ -61,9 +64,10 @@ void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
   (*callback)(symbol, conversion_to, conversion_from);
   
   // free the storage
-  pcre_free_substring(symbol);
-  pcre_free_substring(to);
-  pcre_free_substring(from);
+  free(symbol); free(to); free(from);
+  pcre_free_substring(c_symbol);
+  pcre_free_substring(c_to);
+  pcre_free_substring(c_from);
 }
 
 void skip_to_top_85(FILE* fp)
