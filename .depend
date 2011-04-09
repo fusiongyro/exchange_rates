@@ -1,11 +1,4 @@
-ecpgtest.o: ecpgtest.c store.h
-extract.o: extract.c extract.h /opt/local/include/pcre.h store.h
-extract.o: extract.h /opt/local/include/pcre.h store.h
+extract.o: extract.c extract.h store.h
+extract.o: extract.h store.h
 store.o: store.h
-store.o: store.c /opt/local/include/postgresql90/ecpglib.h \
-  /opt/local/include/postgresql90/libpq-fe.h \
-  /opt/local/include/postgresql90/postgres_ext.h \
-  /opt/local/include/postgresql90/ecpgtype.h \
-  /opt/local/include/postgresql90/sqlca.h \
-  /opt/local/include/postgresql90/ecpgerrno.h \
-  /opt/local/include/postgresql90/sqlca.h store.h
+store.o: store.c store.h

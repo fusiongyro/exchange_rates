@@ -14,8 +14,6 @@
 
 /// Callback function for use with extractors.
 /// \param symbol           the symbol of this currency (e.g. GBP or USD)
-/// \param nation           name of the nation that hosts this currency 
-///                         (United States of America)
 /// \param conversion_to    the rate for converting to this currency from USD
 /// \param conversion_from  the rate for converting to USD from this currency
 typedef void (*exchange_rate_cb)(const char*, double, double);
