@@ -1,27 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <pcre.h>
-
-#include "store.h"
+#include "extract.h"
 
 char* PATTERN = "<tr><td.*><\\/td><td.*><p.*>(\\w\\w\\w) "
                 "([^<]+)<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)"
                 "<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)<\\/p><\\/td>"
                 "<td.*><\\/td><\\/tr>";
 
-typedef struct extraction_state_s
+struct extraction_state_s
 {
   pcre* regexp;
   pcre_extra* extra;
   const char* errptr;
   int erroffset;
-} extraction_state;
+};
 
-extraction_state* setup_extraction()
+extraction_state setup_extraction()
 {
   // allocate the memory
-  extraction_state* setup = malloc(sizeof(extraction_state));
+  extraction_state setup = malloc(sizeof(struct extraction_state_s));
   
   // prepare the structures
   setup->regexp = pcre_compile(PATTERN, 0, &setup->errptr, &setup->erroffset, NULL);
@@ -30,9 +25,7 @@ extraction_state* setup_extraction()
   return setup;
 }
 
-typedef void (*exchange_rate_callback)(const char*, const char*, double, double);
-
-void extract_from_string(extraction_state* extractor, char* line, exchange_rate_callback callback)
+void extract_from_string(extraction_state extractor, char* line, exchange_rate_callback callback)
 {
   printf("examining line: %s\n", line);
   int ovector[20];
@@ -65,7 +58,7 @@ void extract_from_string(extraction_state* extractor, char* line, exchange_rate_
   pcre_free_substring(from);
 }
 
-void extract_from_file(extraction_state* extractor, FILE* fp, exchange_rate_callback callback)
+void extract_from_file(extraction_state extractor, FILE* fp, exchange_rate_callback callback)
 {
   char line[1024];
   
@@ -81,7 +74,7 @@ void print_exchange_rate(const char *symbol, const char *description, double con
 
 int main()
 {
-  extraction_state* setup = setup_extraction();
+  extraction_state setup = setup_extraction();
   extract_from_file(setup, stdin, &print_exchange_rate);
   
   return 0;
