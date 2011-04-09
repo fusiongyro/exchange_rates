@@ -1,0 +1,347 @@
+From list@en.ucc.xe.net Fri Apr  8 16:08:57 2011
+Return-Path: <list@en.ucc.xe.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on linode.clanspum.net
+X-Spam-Level: 
+X-Spam-Status: No, score=0.6 required=5.0 tests=BANG_GUAR,BAYES_00,DKIM_SIGNED,
+	DKIM_VALID,DKIM_VALID_AU,FROM_MISSP_DKIM,FROM_MISSP_EH_MATCH,HS_INDEX_PARAM,
+	HTML_MESSAGE,RCVD_IN_DNSWL_LOW,SPF_PASS autolearn=no version=3.3.1
+X-Original-To: ucc@fusion.spum.us
+Delivered-To: fusion@clanspum.net
+Received: from cus01.xe.com (cus01.xe.com [216.220.38.27])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mail.clanspum.net (Postfix) with ESMTPS id 5FA7D17C275
+	for <ucc@fusion.spum.us>; Fri,  8 Apr 2011 16:08:57 -0500 (CDT)
+Received: from cus01.xe.com (cus01.xe.com [192.168.2.6])
+	by cus01.xe.com (Postfix) with SMTP id 50DBB6015B
+	for <ucc@fusion.spum.us>; Fri,  8 Apr 2011 17:06:53 -0400 (EDT)
+DomainKey-Signature: a=rsa-sha1; s=test; d=en.ucc.xe.net; c=simple; q=dns;
+	b=knhVOnYrHYTN65oqdTCNnvFdi8Jdi165Q00HYy+JmafmlAbw9ghQq+2ozaQx0Dr8P
+	yGLHxO7xzKLbFKadZ8qba69uzsFECP6JaoXSG5xWYKMIQ4asuK0ij5jel3njcamiq0J
+	nD0RUgRKQf8pP32JT8EG+km0vsnVnfSDRh+tslM=
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=en.ucc.xe.net;
+	s=testdkim; t=1302296813;
+	bh=K3yTv9C5JoSthsLPq1d9If5bRjfOUTqFcp32ssaFJr0=;
+	h=MIME-Version:From:Reply-To:Subject:To:Content-Type:Message-Id:
+	 Date;
+	b=aY1wFWOJ64dWzyF6k4bUByz9TH8nbadFniD3w7w/6cgk38OXZPM2nEaLZcYrtFMix
+	 SOMY1h/7t1gU1d+HivSTGXo7WmkumHmr/PqKhQhbn/PbrdyKTBDMrRwj5HvFiiFuWF
+	 /Y+r+kvXBUAErMWLnhTQ4gKkBXsnrTL1DdwMBAwY=
+MIME-Version: 1.0
+From: Universal Currency Converter<list@en.ucc.xe.net>
+Reply-To: "XE.com Currency Services"<currency@xe.com>
+Errors-To: Currency List<list@en.ucc.xe.net>
+Subject: Today's Currency Update (USD)  CUSDF4C4D9BCB03
+To: Daniel Lyons <ucc@fusion.spum.us>
+Content-Type: multipart/alternative;
+ boundary="------------060507060709030501020801"
+X-Mailer: XE.com E-Mail Currency Update Service
+X-Help-Page-Location: http://www.xe.com/cus/sample.htm
+X-Subscriber-ID: CUSDF4C4D9BCB03
+Message-Id: <20110408210653.50DBB6015B@cus01.xe.com>
+Date: Fri,  8 Apr 2011 17:06:53 -0400 (EDT)
+Status: RO
+Content-Length: 58949
+
+This is a multi-part message in MIME format.
+--------------060507060709030501020801
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+
+XE's Currency Update Service writes:
+
+XE's Free Currency Update Service is now available in HTML only.  If you can only receive plain text emails, click the link below to see currency rates on-line:
+
+  http://www.xe.com/email/cus/cus_newsletter.php?basecur=USD&date=2011-04-08&sub=CUSDF4C4D9BCB03
+
+____________________________________________________________________________
+
+XE Datafeed
+
+If you need currency rate data for commercial purposes, please visit:
+
+  http://www.xe.com/dfs/?cus2
+
+____________________________________________________________________________
+
+Unsubscribe
+
+To unsubscribe from this service, click the link below:
+
+  https://www.xe.com/cus/uns.cgi?CUSDF4C4D9BCB03
+
+____________________________________________________________________________
+
+Terms of Use
+
+This service is provided subject to the Terms of Use outlined at:
+
+  http://www.xe.com/legal/
+
+If you do not agree with these terms, please unsubscribe as outlined above.
+
+___________________________________________________________________________
+
+Information And Identification
+
+E-Mail Currency Update Service by XE.com. Visit us at: http://www.xe.com/
+Address: 1145 Nicholson Rd, Suite 200, Newmarket, Ontario, L3Y 9C3, Canada
+
+For complete information on this service, refer to:
+
+  http://www.xe.com/cus
+
+© 2008 XE Corporation
+
+--------------060507060709030501020801
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>XE Newsletter April 2008</title>
+<style type="text/css">
+body{
+ background-color:#f5f5f5;
+}
+a:link{
+ color:#002a7f;
+ text-decoration:underline;
+}
+a:hover{
+ text-decoration:none;
+}
+a:visited{
+ color:#002a7f;
+}
+</style>
+</head>
+<body bgcolor="#f5f5f5">
+<div style="width:100%;background-color:#f5f5f5;">
+  <table width="634" border="0" align="center" cellpadding="0" cellspacing="0" style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">
+    <tr>
+      <td width="5"></td>
+      <td align="center"><div style="font-size:11px;">If this message is not displaying properly, <a href="http://www.xe.com/email/cus/cus_newsletter.php?basecur=USD&date=2011-04-08&sub=CUSDF4C4D9BCB03" target="_blank">click here</a> to launch your browser.</div></td>
+      <td width="5"></td>
+    </tr>
+    <tr>
+      <td width="5"></td>
+      <td width="624" bgcolor="#FFFFFF"><a href="http://www.xe.com"><img src="http://www.xe.com/email/images/emailCUSHeader0808.jpg" width="624" alt="" border="0" alt="www.xe.com" title="www.xe.com" /></a>
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td width="15"></td>
+            <td><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">Subscription number: CUSDF4C4D9BCB03</p>
+              <p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">Here is today's XE Currency Update for your personal use at home or work. For commercial use of our rates, try the <a href="http://www.xe.com/dfs/?utm_source=cusemail&utm_medium=TL&utm_content=NOGEO&utm_campaign=datafeedTLincus" target="_blank">XE Datafeed</a>. If you like this service, <a href="http://www.xe.com/refer/?CUS" target="_blank">tell a friend</a>!</p>
+              
+        <div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#002a7f;padding:6px;border:1px dotted #e5e5e5;"><strong><font color=#b98709>Best Currency Rates Guaranteed!&nbsp;</font></strong><a href="http://www.xe.com/fx/?utm_source=cusemail&amp;utm_medium=TL&amp;utm_content=NoGeo&amp;utm_campaign=XETrade_CheapMoneyTrans_inCUS_TL">Get a Free Account</a>&nbsp;<span style="font-size:10px">&#9658;</span></div>
+        
+              <p style="font-size:18px;font-family:Lucida Sans, Arial, Helvetica, sans-serif;color:#002d4d;">Current Forex News</p><div id="emailCus_news"><p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;"><a target="_blank" href="http://www.xe.com/news/2011/04/08/1828761.htm?utm_source=cusemail&utm_medium=NewsHL&utm_content=NOGEO&utm_campaign=xenewsHLincus_XE.com Inc" style="color:#002a7f;">XE Forex Rates at 2011-04-08 19:00 UTC</a><span style="font-size:11px;color:#999999;">
+						- 2011-04-08 19:00 UTCXE.com Inc</span></p><p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;"><a target="_blank" href="http://www.xe.com/news/2011/04/08/1828757.htm?utm_source=cusemail&utm_medium=NewsHL&utm_content=NOGEO&utm_campaign=xenewsHLincus_Reuters" style="color:#002a7f;">New Issue-Masonite sells $275 mln in 10-year notes</a><span style="font-size:11px;color:#999999;">
+						- 2011-04-08 18:59 UTCReuters</span></p><p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;"><a target="_blank" href="http://www.xe.com/news/2011/04/08/1828753.htm?utm_source=cusemail&utm_medium=NewsHL&utm_content=NOGEO&utm_campaign=xenewsHLincus_Reuters" style="color:#002a7f;">UPDATE 1-Russian spy agency complains about Gmail, Skype</a><span style="font-size:11px;color:#999999;">
+						- 2011-04-08 18:54 UTCReuters</span></p><p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;"><a target="_blank" href="http://www.xe.com/news/home.htm?utm_source=cusemail&utm_medium=TL&utm_content=NOGEO&utm_campaign=xenewsTLincus" style="color:#002a7f;">More Forex News ...</a></p></div>
+              <table width="604" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tr>
+                  <td valign="top"><p style="font-size:18px;font-family:Lucida Sans, Arial, Helvetica, sans-serif;color:#002d4d;">Central Bank Interest Rates</p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- Set the parameters by default here if none provided. -->
+<!-- 
+Set a space character to a variable so it can be displayed later. 
+No other methods worked properly. Like '&nbsp;' or '&#32;' 
+-->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- This will generate an email version. -->
+<table id="emailCus_centBank" cellpadding="0" cellspacing="0" border="0" width="400">
+<tr style="background-color:#ffffff">
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">CHF&nbsp;0.25%</div></td>
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">JPY&nbsp;0.1%</div></td>
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">EUR&nbsp;1.25%</div></td>
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">USD&nbsp;0.25%</div></td>
+<!-- Close the row -->
+</tr>
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Row colour changing block -->
+<!-- If there should be a row change we should also change the style. -->
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- Start a new row -->
+<tr style="background-color:#f4f4f4">
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">CAD&nbsp;1.0%</div></td>
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">NZD&nbsp;2.5%</div></td>
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">AUD&nbsp;4.75%</div></td>
+<!-- Compose the actual cells here. -->
+<td style="height:30px"><div style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">GBP&nbsp;0.5%</div></td>
+<!-- Display the remaining empty cells to match the number of max column count. -->
+</tr>
+</table>
+                    <p style="font-size:18px;font-family:Lucida Sans, Arial, Helvetica, sans-serif;color:#002d4d;">Currency Rates</p>
+                    <p style="font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#6a6d70;">Base currency is USD. Rates as of 2011-04-08 19:09:00 UTC (GMT).</p>
+                    <table id="curRate_top10" width="409" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="8"></td>
+                        <td height="30" colspan="3" valign="top" id="top10Title"><p><span style="font-family:Lucida Sans, Arial, Helvetica, sans-serif;font-size:14px;color:#585d62;font-weight:bold;">Top 10 Currencies&nbsp;&nbsp;&nbsp;</span><span style="font-family:Lucida Sans, Arial, Helvetica, sans-serif;font-size:10px;color:#585d62;">By popularity</span></p></td>                                    <td width="8"></td>
+                      </tr>
+                      <tr>
+                        <td width="8"></td>
+                        <td height="26" id="top10_unitTitle"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70; font-weight:bold;">Currency Unit</p></td>
+                        <td id="top10_cadUnitTitle" align="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70; font-weight:bold;">USD per Unit</p></td>
+                        <td id="top10_unitCadTitle" align="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70; font-weight:bold;">Units per USD</p></td>
+                        <td width="8"></td>
+                      </tr>
+                      <tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">USD United States Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">EUR Euro</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.4435300080</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6927462501</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">GBP United Kingdom Pounds</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.6350258403</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6116111289</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CAD Canada Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0443936547</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.9574933700</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">AUD Australia Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0525611187</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.9500635946</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">JPY Japan Yen</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0117833616</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">84.8654256014</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">INR India Rupees</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0226804700</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">44.0907969702</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">NZD New Zealand Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.7804731227</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.2812741028</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CHF Switzerland Francs</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0988327336</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.9100566169</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ZAR South Africa Rand</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1501604824</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">6.6595417385</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+</table><br /><table id="curRate_top86" width="409" border="0" cellspacing="0" cellpadding="0"><tr><td width="8"></td>
+<td height="30" id="top86Title" colspan="3"><p><span style="font-family:Lucida Sans, Arial, Helvetica,sans-serif;font-size:14px;color:#585d62;font-weight:bold;">Top 85 Currencies&nbsp;&nbsp;&nbsp;</span><span style="font-family:Lucida Sans, Arial, Helvetica,sans-serif;font-size:10px;color:#585d62;">Alphabetically</span></p></td>
+<td width="8"></td></tr>
+<tr><td width="8"></td><td height="30" id="top10_unitTitle"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70; font-weight:bold;">Currency Unit</p></td>
+<td id="top10_cadUnitTitle" align="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70; font-weight:bold;">USD per Unit</p></td>
+<td id="top10_unitCadTitle" align="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70; font-weight:bold;">Units per USD</p></td>
+<td width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">AFN Afghanistan Afghanis</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0232369003</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">43.0349998474</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ALL Albania Leke</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0101657009</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">98.3700000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">DZD Algeria Dinars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0141081135</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">70.8811987305</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ARS Argentina Pesos</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2470282593</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">4.0481198502</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">AUD Australia Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0525611187</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.9500635946</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BSD Bahamas Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BHD Bahrain Dinars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.6530503991</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3769246149</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BDT Bangladesh Taka</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0137170445</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">72.9020013428</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BBD Barbados Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.5000000000</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.0000000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BMD Bermuda Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BRL Brazil Reais</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6355096631</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.5735401962</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">BGN Bulgaria Leva</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.7380618423</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.3549000133</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CAD Canada Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0443936547</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.9574933700</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XOF CFA Francs BCEAO</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0022006473</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">454.4117519979</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XAF CFA Francs BEAC</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0022006473</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">454.4117519979</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XPF CFP Francs</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0120967815</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">82.6666169609</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CLP Chile Pesos</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0021289913</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">469.7060119629</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CNY China Yuan Renminbi</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1529985004</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">6.5360117722</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">COP Colombia Pesos</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0005480653</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1,824.6000000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CRC Costa Rica Colones</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0020052135</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">498.7000122070</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">HRK Croatia Kuna</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1958530132</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">5.1058698742</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CYP Cyprus Pounds</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.4664174524</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.4054463688</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CZK Czech Republic Koruny</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0590514075</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">16.9343973597</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">DKK Denmark Kroner</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1935698196</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">5.1660946013</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">DOP Dominican Republic Pesos</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0266624006</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">37.5060000610</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XCD East Caribbean Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3703703638</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.7000000477</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">EGP Egypt Pounds</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1676698851</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">5.9641002274</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">EEK Estonia Krooni</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0922581467</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">10.8391511872</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">EUR Euro</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.4435300080</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6927462501</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">FJD Fiji Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.5550000072</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.8018017786</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XAU Gold Ounces</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1,471.1902943060</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0006797217</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">HKD Hong Kong Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1287166635</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">7.7690018719</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">HUF Hungary Forint</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0054818546</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">182.4200152467</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ISK Iceland Kronur</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0088817835</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">112.5900000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XDR IMF Special Drawing Rights</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.5927371287</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6278499961</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">INR India Rupees</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0226804700</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">44.0907969702</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">IDR Indonesia Rupiahs</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0001156043</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">8,650.2000000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">IRR Iran Rials</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0000963391</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">10,380.0000000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">IQD Iraq Dinars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0008579125</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1,165.6200000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ILS Israel New Shekels</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2911913456</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.4341679963</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">JMD Jamaica Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0118035887</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">84.7199969482</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">JPY Japan Yen</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0117833616</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">84.8654256014</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">JOD Jordan Dinars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.4103576801</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.7090399933</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">KZT Kazakhstan Tenge</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0068798973</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">145.3510058594</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">KES Kenya Shillings</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0119540008</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">83.6540014648</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">KWD Kuwait Dinars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.6254345304</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2758290052</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">LBP Lebanon Pounds</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0006661781</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1,501.1000000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">MYR Malaysia Ringgits</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3309504774</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.0216001129</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">MTL Malta Liri</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.3625204007</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2973959652</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">MUR Mauritius Rupees</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0365630714</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">27.3499999237</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">MXN Mexico Pesos</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0851695567</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">11.7412845417</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">MAD Morocco Dirhams</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1278069622</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">7.8242998886</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">NZD New Zealand Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.7804731227</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.2812741028</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">NGN Nigeria Nairas</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0064807973</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">154.3020031738</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">NOK Norway Kroner</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1849948868</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">5.4055548102</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">OMR Oman Rials</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.5990983481</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3847488113</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">PKR Pakistan Rupees</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0117855040</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">84.8499984741</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XPD Palladium Ounces</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">792.7874001643</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0012613722</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">PEN Peru Nuevos Soles</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3570025908</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.8011001205</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">PHP Philippines Pesos</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0233263360</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">42.8699989319</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XPT Platinum Ounces</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1,807.8752632407</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0005531355</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">PLN Poland Zlotych</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3642917873</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.7450522765</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">QAR Qatar Riyals</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2746185885</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.6414140987</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">RON Romania New Lei</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3511066595</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.8481373760</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">RUB Russia Rubles</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0356902725</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">28.0188390377</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">SAR Saudi Arabia Riyals</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2666489278</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.7502494693</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">XAG Silver Ounces</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">40.5239126866</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0246767879</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">SGD Singapore Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.7952726835</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.2574303389</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ZAR South Africa Rand</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1501604824</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">6.6595417385</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">KRW South Korea Won</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0009235300</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1,082.8018572769</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">LKR Sri Lanka Rupees</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0090604329</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">110.3700027466</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">SDG Sudan Pounds</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.3741114756</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">2.6730000687</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">SEK Sweden Kronor</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1606831280</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">6.2234287614</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">CHF Switzerland Francs</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0988327336</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.9100566169</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">TWD Taiwan New Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0344803807</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">29.0019999695</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">THB Thailand Baht</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0332991455</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">30.0308006015</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">TTD Trinidad and Tobago Dollars</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.1579778850</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">6.3299999237</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">TND Tunisia Dinars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.7297352240</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.3703600526</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">TRY Turkey Lira</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6611490611</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.5125182184</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">AED United Arab Emirates Dirhams</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2722567072</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">3.6730040930</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">GBP United Kingdom Pounds</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.6350258403</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.6116111289</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">USD United States Dollars</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">1.0000000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">VEF Venezuela Bolivares Fuertes</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.2325581395</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">4.3000000000</p></td><td  width="8"></td></tr>
+<tr><td bgcolor="#f4f4f4" width="8"></td><td bgcolor="#f4f4f4" height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">VND Vietnam Dong</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0000480765</p></td><td bgcolor="#f4f4f4" align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">20,800.2000000000</p></td><td bgcolor="#f4f4f4" width="8"></td></tr>
+<tr><td  width="8"></td><td  height="26"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">ZMK Zambia Kwacha</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">0.0002132014</p></td><td  align ="right"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">4,690.4000000000</p></td><td  width="8"></td></tr>
+
+                    </table>
+                    <p>&nbsp;</p></td>
+                  <td width="195" align="right" valign="top">
+			  	<p><a href="http://www.xe.com/fx/?utm_source=cusemail&utm_medium=180x150&utm_content=NOGEO&utm_campaign=XETrade_180x150_cusemail" target="_blank"><img src="http://www.xe.com/gen/ads/images/180x150_xetrade_piggyguarantee.gif" width="180" height="150" border="0" /></a></p>
+                    <p><a href="http://www.xe.com/currencytrading/?utm_source=cusemail&utm_medium=180x150&utm_content=NOGEO&utm_campaign=CurrTrad_180x150_cusemail" target="_blank"><img src="http://www.xe.com/gen/ads/images/180x150_curtrade_coins.gif" width="180" height="150" border="0" /></a></p>
+                    <p><a href="http://www.xe.com/dfs/?utm_source=cusemail&utm_medium=180x150&utm_content=NOGEO&utm_campaign=DFS_180x150_cusemail" target="_blank"><img src="http://www.xe.com/gen/ads/images/180x150_dfs_080328.gif" width="180" height="150" border="0" /></a></p>
+                    <br>
+                  </td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="33%" align="left"><a href="http://www.xe.com/news/home.htm?utm_source=cusemail&utm_medium=180x150&utm_content=NOGEO&utm_campaign=News_GetCurrNews_cusemail" target="_blank"><img src="http://www.xe.com/gen/ads/images/180x150_forexNews_analysis.gif" width="180" height="150" border="0" /></a></td>
+                  <td width="33%" align="center"><a href="http://www.xe.com/mobile/?utm_source=cusemail&utm_medium=180x150&utm_content=NOGEO&utm_campaign=XECurrApp_180x150_cusemail" target="_blank"><img src="http://www.xe.com/gen/ads/images/180x150_allphones_1b.png" width="180" height="150" border="0" /></a></td>
+                  <td width="33%" align="right"><a href="http://www.xe.com/currencycharts/?from=USD&to=EUR&utm_source=cusemail&utm_medium=180x150&utm_content=NOGEO&utm_campaign=Charts_180x150_cusemail" target="_blank"><img src="http://www.xe.com/gen/ads/images/180x150_charts.gif" width="180" height="150" border="0" /></a></td>
+                </tr>
+              </table>
+              <br />
+              <br />
+            </td>
+            <td width="15" bgcolor="#FFFFFF"></td>
+          </tr>
+        </table></td>
+      <td width="5"></td>
+    </tr>
+    <tr>
+      <td width="5"></td>
+      <td><img src="http://www.xe.com/email/images/emailCUSFooter0808.gif" alt="" /></td>
+      <td width="5"></td>
+    </tr>
+    <tr>
+      <td width="5"></td>
+      <td align="center"><p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;"><br />
+          If you would like to unsubscribe, please <a href="https://www.xe.com/cus/uns.cgi?CUSDF4C4D9BCB03" target="_blank">click here</a>. &middot; If you would like to subscribe, <a href="https://www.xe.com/cus/?utm_source=cusemail&utm_medium=TL&utm_content=NOGEO&utm_campaign=CUSTLincus" target="_blank">click here</a>. &middot; Like our Site? <a href="http://www.xe.com/refer/?xe" target="_blank">Tell a friend</a>.</p>
+        <p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;"><a href="http://www.xe.com/?utm_source=cusemail&utm_medium=TL&utm_content=NOGEO&utm_campaign=XEhomeTLincus" target="_blank">XE.com</a> &middot; 1145 Nicholson Rd, Suite 200, Newmarket, Ontario, L3Y 9C3, Canada</p>
+        <p style="font-family:Arial, Helvetica, sans-serif;font-size:11px;color:#6a6d70;">&copy; 2008 XE Corporation &middot; <a href="http://www.xe.com/legal/" target="_blank">Terms of Use</a></p>
+        <br />
+      </td>
+      <td width="5"></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+
+--------------060507060709030501020801--
+
+
