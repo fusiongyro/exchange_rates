@@ -1,11 +1,11 @@
 #include "extract.h"
 
 char* PATTERN = "<tr><td.*><\\/td><td.*><p.*>(\\w\\w\\w) "
-                "([^<]+)<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)"
+                "[^<]+<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)"
                 "<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)<\\/p><\\/td>"
                 "<td.*><\\/td><\\/tr>";
 
-struct extraction_state_s
+struct extractor_s
 {
   pcre* regexp;
   pcre_extra* extra;
@@ -13,10 +13,10 @@ struct extraction_state_s
   int erroffset;
 };
 
-extraction_state setup_extraction()
+extractor make_extractor()
 {
   // allocate the memory
-  extraction_state setup = malloc(sizeof(struct extraction_state_s));
+  extractor setup = malloc(sizeof(struct extractor_s));
   
   // prepare the structures
   setup->regexp = pcre_compile(PATTERN, 0, &setup->errptr, &setup->erroffset, NULL);
@@ -25,57 +25,57 @@ extraction_state setup_extraction()
   return setup;
 }
 
-void extract_from_string(extraction_state extractor, char* line, exchange_rate_callback callback)
+void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
 {
-  printf("examining line: %s\n", line);
   int ovector[20];
-  int result = pcre_exec(extractor->regexp, extractor->extra, line, strlen(line), 0, 0, ovector, 20);
+  int result = pcre_exec(state->regexp, state->extra, line, strlen(line), 0, 0, ovector, 20);
   
-  if (result < 0)
+  if (result <= 0)
     return;
   
-  if (result == 0)
-    printf("SQUAK!\n");
-  
   // extract the groups
-  const char *symbol, *description, *to, *from;
+  const char *symbol, *to, *from;
   pcre_get_substring(line, ovector, result, 1, &symbol);
-  pcre_get_substring(line, ovector, result, 2, &description);
-  pcre_get_substring(line, ovector, result, 3, &to);
-  pcre_get_substring(line, ovector, result, 4, &from);
+  pcre_get_substring(line, ovector, result, 2, &to);
+  pcre_get_substring(line, ovector, result, 3, &from);
 
   // convert strings to doubles
   float conversion_to = atof(to);
   float conversion_from = atof(from);
   
   // call the callback
-  (*callback)(symbol, description, conversion_to, conversion_from);
+  (*callback)(symbol, conversion_to, conversion_from);
   
   // free the storage
   pcre_free_substring(symbol);
-  pcre_free_substring(description);
   pcre_free_substring(to);
   pcre_free_substring(from);
 }
 
-void extract_from_file(extraction_state extractor, FILE* fp, exchange_rate_callback callback)
+void skip_to_top_85(FILE* fp)
+{
+  int erroffset;
+  const char* errptr;
+  pcre* regexp = pcre_compile("Top 85", 0, &errptr, &erroffset, NULL);
+  
+  char line[1024];
+  while (fgets(line, 1024, fp) && (pcre_exec(regexp, NULL, line, strlen(line), 0, 0, NULL, 0) < 0));
+}
+
+void extract_from_file(extractor state, FILE* fp, exchange_rate_cb callback)
 {
   char line[1024];
   
-  // step 1: process each line of the file
-  while (fgets(line, 1024, fp))
-    extract_from_string(extractor, line, callback);
-}
-
-void print_exchange_rate(const char *symbol, const char *description, double conversion_to, double conversion_from)
-{
-  printf("Conversion: %s (%s) : %f (%f)\n", symbol, description, conversion_to, conversion_from);
-}
-
-int main()
-{
-  extraction_state setup = setup_extraction();
-  extract_from_file(setup, stdin, &print_exchange_rate);
+  // step 1: skip to the top 85
+  skip_to_top_85(fp);
   
-  return 0;
+  // step 2: process each line of the file
+  while (fgets(line, 1024, fp))
+    extract_from_string(state, line, callback);
+}
+
+// this is a sample callback
+void print_exchange_rate(const char *symbol, double conversion_to, double conversion_from)
+{
+  printf("Conversion: %s : %f <-> %f\n", symbol, conversion_to, conversion_from);
 }

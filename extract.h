@@ -14,20 +14,22 @@
 
 /// Callback function for use with extractors.
 /// \param symbol           the symbol of this currency (e.g. GBP or USD)
-/// \param nation           name of the nation that hosts this currency (United States of America)
+/// \param nation           name of the nation that hosts this currency 
+///                         (United States of America)
 /// \param conversion_to    the rate for converting to this currency from USD
 /// \param conversion_from  the rate for converting to USD from this currency
-typedef void (*exchange_rate_callback)(const char*, const char*, double, double);
+typedef void (*exchange_rate_cb)(const char*, double, double);
 
 /// This opaque struct is used to maintain state between initialization and 
 /// whatever extraction processes you start.
-typedef struct extraction_state_s *extraction_state;
+typedef struct extractor_s *extractor;
 
 /// Create a blank extraction state.
-extraction_state setup_extraction(void);
+extractor make_extractor(void);
 
-/// Run an extraction between a given file and a given callback, managed by state.
-void extract_from_file(extraction_state extractor, FILE* fp, exchange_rate_callback callback);
+/// Run an extraction between a given file and a given callback, managed by 
+/// state.
+void extract_from_file(extractor state, FILE* fp, exchange_rate_cb callback);
 
 
 #endif

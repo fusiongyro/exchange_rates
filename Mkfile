@@ -7,7 +7,7 @@ POSTGRES_LDFLAGS 	= -L`{pg_config --libdir} -lecpg -lpq
 CC			= cc
 CFLAGS			= $PCRE_CFLAGS $POSTGRES_CFLAGS -Wall -std=c99 
 
-all:QV: extract ecpgtest
+all:QV: main
 
 <.depend
 
@@ -20,10 +20,7 @@ all:QV: extract ecpgtest
 %.o: %.c
   $CC $CFLAGS -c $stem.c -o $stem.o
 
-extract: extract.o store.o
-  $CC $PCRE_LDFLAGS $POSTGRES_LDFLAGS $prereq -o $target
-
-ecpgtest: ecpgtest.o store.o
+main: extract.o store.o main.o
   $CC $PCRE_LDFLAGS $POSTGRES_LDFLAGS $prereq -o $target
 
 clean:V:
