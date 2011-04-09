@@ -1,0 +1,4 @@
+ecpgtest.o: ecpgtest.c store.h
+pcretest.o: pcretest.c
+store.o: store.h
+store.o: store.c store.h

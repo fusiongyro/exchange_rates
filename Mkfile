@@ -1,32 +1,30 @@
 PCRE_CFLAGS 	  	= `{pcre-config --cflags}
 PCRE_LDFLAGS 		= `{pcre-config --libs}
 
-POSTGRES_CFLAGS 	= `{pg_config --includedir}
-POSTGRES_LDFLAGS 	= `{pg_config --libdir}
+POSTGRES_CFLAGS 	= -I`{pg_config --includedir}
+POSTGRES_LDFLAGS 	= -L`{pg_config --libdir} -lecpg -lpq
+
+CC			= cc
+CFLAGS			= $PCRE_CFLAGS $POSTGRES_CFLAGS -Wall -std=c99 
+
+all:QV: pcretest ecpgtest
 
 <.depend
 
-ALL			= pcretest ecpgtest
+.depend: ecpgtest.c pcretest.c store.h store.c
+  $CC $CFLAGS -E -MM $prereq > $target
 
-all:QV: $ALL
+%.c: %.pgc
+  ecpg $stem.pgc -o $stem.c
 
-%.c:  %.pgc
-  ecpg $< -o $@	
+%.o: %.c
+  $CC $CFLAGS -c $stem.c -o $stem.o
 
-#store.c: store.pgc
-#	$(ECPG) $< -o $@
-#
-#depend: .depend
-#.depend: $(SOURCES)
-#	$(CC) -E -MM $^ > .depend
-#
-#include .depend
-#
-#pcretest: pcretest.o
-#	$(CC) $(LDFLAGS) $^ -o $@
-#
-#ecpgtest: ecpgtest.o store.o
-#	$(CC) $(LDFLAGS) $^ -o $@
-#
-#clean:
-#	rm -f *.o store.c ecpgtest pcretest
+pcretest: pcretest.o store.o
+  $CC $PCRE_LDFLAGS $POSTGRES_LDFLAGS $prereq -o $target
+
+ecpgtest: ecpgtest.o store.o
+  $CC $PCRE_LDFLAGS $POSTGRES_LDFLAGS $prereq -o $target
+
+clean:V:
+  rm -f *.o store.c ecpgtest pcretest
