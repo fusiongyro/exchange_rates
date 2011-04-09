@@ -47,7 +47,7 @@ void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
     return;
   
   // extract the groups
-  const char *symbol, *to, *from;
+  char *symbol, *to, *from;
   pcre_get_substring(line, ovector, result, 1, &symbol);
   pcre_get_substring(line, ovector, result, 2, &to);
   pcre_get_substring(line, ovector, result, 3, &from);
