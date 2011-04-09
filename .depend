@@ -1,0 +1,7 @@
+extract.o: extract.c extract.h /usr/local/include/pcre.h store.h
+extract.o: extract.h /usr/local/include/pcre.h store.h
+store.o: store.h
+store.o: store.c /usr/local/include/ecpglib.h \
+  /usr/local/include/libpq-fe.h /usr/local/include/postgres_ext.h \
+  /usr/local/include/ecpgtype.h /usr/local/include/sqlca.h \
+  /usr/local/include/ecpgerrno.h /usr/local/include/sqlca.h store.h
