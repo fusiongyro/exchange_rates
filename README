@@ -1,0 +1,16 @@
+INSTALLING
+
+1. Create a schema in some database and run create.sql in it.
+2. Edit config.h with the database username, password and schema
+3. Run gmake (or make, from Linux)
+
+
+RUNNING
+
+Add a procmail recipe like so:
+
+:0:
+* ^From.*Universal Currency Converter <list@en.ucc.xe.net>
+| /path/to/extractor
+
+
