@@ -1,0 +1,32 @@
+PCRE_CFLAGS 	  	= `{pcre-config --cflags}
+PCRE_LDFLAGS 		= `{pcre-config --libs}
+
+POSTGRES_CFLAGS 	= `{pg_config --includedir}
+POSTGRES_LDFLAGS 	= `{pg_config --libdir}
+
+<.depend
+
+ALL			= pcretest ecpgtest
+
+all:QV: $ALL
+
+%.c:  %.pgc
+  ecpg $< -o $@	
+
+#store.c: store.pgc
+#	$(ECPG) $< -o $@
+#
+#depend: .depend
+#.depend: $(SOURCES)
+#	$(CC) -E -MM $^ > .depend
+#
+#include .depend
+#
+#pcretest: pcretest.o
+#	$(CC) $(LDFLAGS) $^ -o $@
+#
+#ecpgtest: ecpgtest.o store.o
+#	$(CC) $(LDFLAGS) $^ -o $@
+#
+#clean:
+#	rm -f *.o store.c ecpgtest pcretest

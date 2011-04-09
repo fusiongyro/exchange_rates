@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include "store.h"
+EXEC SQL INCLUDE sqlca;
+
+void quit()
+{
+  fprintf(stderr, "SQL error: %s\nSQL state: %5s\n",
+	  sqlca.sqlerrm.sqlerrmc, sqlca.sqlstate);
+  exit(1);
+}
+
+// Open the storage subsystem.
+void open_storage()
+{
+  EXEC SQL WHENEVER SQLERROR CALL quit();
+  EXEC SQL CONNECT TO fusion USER fusion;
+}
+
+// Write a currency unit to the subsystem.
+void write_currency(char* symbol, double exchange_to, double exchange_from)
+{
+  EXEC SQL BEGIN DECLARE SECTION;
+  char* symbol_;
+  double exchange_to_;
+  double exchange_from_;
+  EXEC SQL END DECLARE SECTION;
+  
+  symbol_ = symbol; exchange_to_ = exchange_to; exchange_from_ = exchange_from;
+  EXEC SQL INSERT INTO exchange_rate (symbol, exchange_to, exchange_from)
+    VALUES (:symbol_, :exchange_to_, :exchange_from_);
+}
+
+// Close the storage subsystem.
+void close_storage()
+{
+  EXEC SQL COMMIT;
+  EXEC SQL DISCONNECT;
+}
