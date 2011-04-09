@@ -27,4 +27,4 @@ ecpgtest: ecpgtest.o store.o
   $CC $PCRE_LDFLAGS $POSTGRES_LDFLAGS $prereq -o $target
 
 clean:V:
-  rm -f *.o store.c ecpgtest pcretest
+  rm -f *.o store.c ecpgtest extract fgetstest
