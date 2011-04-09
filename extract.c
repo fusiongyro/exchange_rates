@@ -1,8 +1,9 @@
 #include "extract.h"
 
+// NOTE: we must handle exchange rates with commas in them too!
 char* PATTERN = "<tr><td.*><\\/td><td.*><p.*>(\\w\\w\\w) "
-                "[^<]+<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)"
-                "<\\/p><\\/td><td.*><p.*>(\\d+\\.\\d+)<\\/p><\\/td>"
+                "[^<]+<\\/p><\\/td><td.*><p.*>(\\d*,?\\d+\\.\\d+)"
+                "<\\/p><\\/td><td.*><p.*>(\\d*,?\\d+\\.\\d+)<\\/p><\\/td>"
                 "<td.*><\\/td><\\/tr>";
 
 struct extractor_s
@@ -25,6 +26,18 @@ extractor make_extractor()
   return setup;
 }
 
+void remove_comma(char *string)
+{
+  char* comma = index(string, ',');
+  
+  // no comma: no problem
+  if (comma == NULL)
+    return;
+    
+  // otherwise, we need to overwrite the comma with the rest of the string
+  strcpy(comma, comma+1);
+}
+
 void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
 {
   int ovector[20];
@@ -40,6 +53,7 @@ void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
   pcre_get_substring(line, ovector, result, 3, &from);
 
   // convert strings to doubles
+  remove_comma(to); remove_comma(from);
   float conversion_to = atof(to);
   float conversion_from = atof(from);
   

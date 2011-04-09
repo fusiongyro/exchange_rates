@@ -3,6 +3,8 @@
 #include <string.h>
 
 #include "store.h"
+EXEC SQL INCLUDE config.h;
+
 EXEC SQL INCLUDE sqlca;
 
 void quit()
@@ -15,14 +17,20 @@ void quit()
 // Open the storage subsystem.
 void open_storage()
 {
+  EXEC SQL BEGIN DECLARE SECTION;
+  const char* database = DATABASE_NAME;
+  const char* username = USERNAME;
+  const char* schema = SCHEMA;
+  EXEC SQL END DECLARE SECTION;
+  
   EXEC SQL WHENEVER SQLERROR CALL quit();
-  EXEC SQL CONNECT TO fusion USER fusion;
+  EXEC SQL CONNECT TO :database USER :username;
+  EXEC SQL SET search_path to :schema;
 }
 
 // Write a currency unit to the subsystem.
 void store_exchange_rate(const char* symbol, double exchange_to, double exchange_from)
 {
-  printf("called with %s, %f, %f\n", symbol, exchange_to, exchange_from);
   EXEC SQL BEGIN DECLARE SECTION;
   const char* symbol_;
   double exchange_to_, exchange_from_;
