@@ -33,4 +33,7 @@ extractor make_extractor(void);
 void extract_from_file(extractor state, FILE* fp, exchange_rate_cb callback);
 
 
+/// Free the extraction state.
+void free_extractor(extractor);
+
 #endif
