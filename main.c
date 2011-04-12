@@ -14,4 +14,7 @@ int main()
   
   // close the database connection
   close_storage();
+
+  // free the extractor
+  free_extractor(state);
 }

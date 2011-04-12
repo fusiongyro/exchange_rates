@@ -100,3 +100,10 @@ void print_exchange_rate(const char *symbol, double conversion_to, double conver
 {
   printf("Conversion: %s : %f <-> %f\n", symbol, conversion_to, conversion_from);
 }
+
+// Free the extractor
+void free_extractor(extractor state)
+{
+  pcre_free(state->regexp);
+  pcre_free(state->extra);
+}
