@@ -2,10 +2,10 @@
 #include "extract.h"
 
 // NOTE: we must handle exchange rates with commas in them too!
-char* PATTERN = "<tr><td.*><\\/td><td.*><p.*>(\\w\\w\\w) "
-                "[^<]+<\\/p><\\/td><td.*><p.*>(\\d*,?\\d+\\.\\d+)"
-                "<\\/p><\\/td><td.*><p.*>(\\d*,?\\d+\\.\\d+)<\\/p><\\/td>"
-                "<td.*><\\/td><\\/tr>";
+const char* PATTERN = "<tr><td.*><\\/td><td.*><p.*>(\\w\\w\\w) "
+                      "[^<]+<\\/p><\\/td><td.*><p.*>([0-9,]+\\.\\d+)"
+                      "<\\/p><\\/td><td.*><p.*>([0-9,]+\\.\\d+)<\\/p>"
+                      "<\\/td><td.*><\\/td><\\/tr>";
 
 struct extractor_s
 {
@@ -29,14 +29,12 @@ extractor make_extractor()
 
 void remove_comma(char *string)
 {
-  char* comma = index(string, ',');
-  
-  // no comma: no problem
-  if (comma == NULL)
-    return;
-    
-  // otherwise, we need to overwrite the comma with the rest of the string
-  strcpy(comma, comma+1);
+  char* comma;
+
+  // loop until we run out of commas
+  while ((comma = index(string, ',')) != NULL)
+    // otherwise, we need to overwrite the comma with the rest of the string
+    strcpy(comma, comma+1);
 }
 
 void extract_from_string(extractor state, char* line, exchange_rate_cb callback)
