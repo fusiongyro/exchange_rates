@@ -1,9 +1,9 @@
 PCRE_CFLAGS 	  	= $(shell pcre-config --cflags)
 PCRE_LDFLAGS 		= $(shell pcre-config --libs)
-                        
+
 POSTGRES_CFLAGS 	= -I$(shell pg_config --includedir)
 POSTGRES_LDFLAGS 	= -L$(shell pg_config --libdir) -lecpg -lpq -pthread
-                        
+
 CFLAGS			= $(PCRE_CFLAGS) $(POSTGRES_CFLAGS) -Wall -std=c99
 
 all: extractor
